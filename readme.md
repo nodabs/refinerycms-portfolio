@@ -13,10 +13,10 @@ Refinery CMS version 3.0.0 or above.
 Open up your ``Gemfile`` and add at the bottom this line:
 
 ```ruby
-gem 'refinerycms-portfolio', git: 'https://github.com/refinery/refinerycms-portfolio', branch: 'master'
+gem 'refinerycms-portfolio', github: 'refinery/refinerycms-portfolio', branch: 'master'
 ```
 
-Now, run ``bundle install``
+Now run `bundle install` and once bundler has installed the gem run:
 
 Next, to install the portfolio plugin run:
 
