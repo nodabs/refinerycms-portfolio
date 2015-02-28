@@ -20,15 +20,15 @@ Now run `bundle install` and once bundler has installed the gem run:
 
 Next, to install the portfolio plugin run:
 
-    rails generate refinery:portfolio
+    $ rails generate refinery:portfolio
 
 Run database migrations:
 
-    rake db:migrate
+    $ bundle exec rake  db:migrate
 
 Finally seed your database and you're done.
 
-    rake db:seed
+    $ bundle exec rake  db:seed
 
 ## Developing & Contributing
 
