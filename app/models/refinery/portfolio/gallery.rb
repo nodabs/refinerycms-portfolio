@@ -9,6 +9,12 @@ module Refinery
       translates :title, :body
 
       has_many    :items, :dependent => :destroy
+      
+      attr_accessible   :title, :body, :lft, :rgt,
+                        :position, :slug, :depth,
+                        :parent_id, :year, :featured_homepage,
+                        :featured_utilities, :featured_commercial, 
+                        :featured_agricultural, :featured_residential
 
       alias_attribute :description, :body
 
