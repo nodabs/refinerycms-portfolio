@@ -32,7 +32,7 @@ module Refinery
         end
 
         def gallery_params
-          params.require(:gallery).permit(:title, :body, :parent_id, images: [])
+          params.require(:gallery).permit(:title, :body, :parent_id, images: [], :year, :featured_homepage, :featured_utilities, :featured_commercial, :featured_agricultural, :featured_residential)
         end
 
       end
